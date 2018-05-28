@@ -2,7 +2,7 @@
 * Install: https://github.com/code-iai/iai_kinect2
 * Remove sudo permissions: https://github.com/OpenKinect/libfreenect2/issues/79
 * Create a ROS WS: http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment
-* For RVIZ: roslaunch .... publish_tf:=true
+* For RVIZ and Bridge: roslaunch .... publish_tf:=true
 
 
 ## Save data
