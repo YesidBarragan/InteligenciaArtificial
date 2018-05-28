@@ -19,4 +19,4 @@
 
 
 ## view data in MATLAB
-*  run Calibracion.m
+*  run Calibracion.m in Matlab
