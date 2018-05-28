@@ -6,11 +6,12 @@
 
 
 ## Save data
-### Python
-* Run: >> python capture_k1.py
-* Data is saved in folder: ~/data/raw
-
-### C++
+* Download the my_pack folder and paste it into the path: catkin_ws/src
+* Go to the catkin_ws path and make a catkin_make
+* In path catkin_ws, make a catkin_make install
+* Run the thread and bridge normally
+* Running in the catkin_ws path the line: source devel/setup.bash
+* Run: rosrun my_pack k2_capture {here goes the path and file name with extension.txt}, example: rosrun my_pack k2_capture /home/harold/Escritorio/data.txt
 * sudo apt-get update
 * sudo apt-get install ros-kinetic-pcl-conversions
 * sudo apt-get install ros-kinetic-pcl-ros
