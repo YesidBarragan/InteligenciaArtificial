@@ -6,17 +6,17 @@
 
 
 ## Save data
+* sudo apt-get update
+* sudo apt-get install ros-kinetic-pcl-conversions
+* sudo apt-get install ros-kinetic-pcl-ros
+* Install: my_pack (using catkin)
 * Download the my_pack folder and paste it into the path: catkin_ws/src
 * Go to the catkin_ws path and make a catkin_make
 * In path catkin_ws, make a catkin_make install
 * Run the thread and bridge normally
 * Running in the catkin_ws path the line: source devel/setup.bash
 * Run: rosrun my_pack k2_capture {here goes the path and file name with extension.txt}, example: rosrun my_pack k2_capture /home/harold/Escritorio/data.txt
-* sudo apt-get update
-* sudo apt-get install ros-kinetic-pcl-conversions
-* sudo apt-get install ros-kinetic-pcl-ros
-* Install: my_pack (using catkin)
-* After install run: rosrun my_pack k2_capture /{your_path}/{your_fileName}.txt
+
 
 ## view data in MATLAB
 *  run Calibracion.m
