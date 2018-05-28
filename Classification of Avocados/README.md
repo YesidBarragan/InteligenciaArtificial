@@ -16,7 +16,7 @@
 * Run the thread and bridge normally
 * Running in the catkin_ws path the line: source devel/setup.bash
 * Run: rosrun my_pack k2_capture {here goes the path and file name with extension.txt}, example: rosrun my_pack k2_capture /home/harold/Escritorio/data.txt
-
+* Modify the capture.cpp file in the my_pack/src/ directory to change the limits of the Kinect capture area, as well as change the grayscale value to detect avocados.
 
 ## view data in MATLAB
 *  run Calibracion.m in Matlab
