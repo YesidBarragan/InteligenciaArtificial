@@ -18,4 +18,4 @@
 * After install run: rosrun my_pack k2_capture /{your_path}/{your_fileName}.txt
 
 ## view data in MATLAB
-*  run files of "data_view" folder
+*  run Calibracion.m
